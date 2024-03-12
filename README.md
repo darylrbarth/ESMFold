@@ -10,7 +10,7 @@ Once you have the virtual environment setup, activate it using something like:
 source .env/bin/activate
 ```
 
-Edit the ESMFold.py script to include the path to the folder of fasta files you want to fold as well as the output path which will hold all of the pdbs. 
+Edit the ESMFold.py script to include the path to fasta file that contains all the amino acid sequences you want to fold as well as the output path which will hold all of the pdbs. 
 
 Then run and watch your pdb files appear!
 

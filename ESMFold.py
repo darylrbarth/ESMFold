@@ -34,8 +34,8 @@ def run_esm_fold(aa):
 
 
 #Put fasta file name here:
-fasta_fp = '/stor/work/Marcotte/project/drbarth/plastics/data/results/PETHits_Guaymas2020_ALLBINS.fasta'
-output_fp = '/stor/work/Marcotte/project/drbarth/plastics/data/results/PETHits_Guaymas2020/ESMfold_output/'
+fasta_fp = 'fasta_of_proteins_tofold.faa'
+output_fp = 'output_filepath/'
 
 #Read in fasta file to a dictionary
 protein_dict = fasta2dict(fasta_fp)
